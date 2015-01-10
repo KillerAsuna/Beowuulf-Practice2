@@ -14,6 +14,7 @@
 #include "ConveyorOn.h"
 #include "IntakeOn.h"
 #include "ShooterOn.h"
+#include "ShooterDelay.h"
 
 Auto::Auto() {
 	// Add Commands here:
@@ -36,5 +37,6 @@ Auto::Auto() {
 	 AddParallel (new ShooterOn());
      AddSequential (new IntakeOn());
      AddSequential (new ConveyorOn());
-    
+     AddSequential (new ShooterDelay());
+    AddSequential (new ConveyorOn());
      }
