@@ -34,12 +34,10 @@ void Shift::Execute() {
 bool Shift::IsFinished() {
 	return true;
 }
-
 // Called once after isFinished returns true
 void Shift::End() {
 	
 }
-
 // Called when another command which requires one or more of the same
 // subsystems is scheduled to run
 void Shift::Interrupted() {
