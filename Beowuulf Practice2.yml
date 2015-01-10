@@ -65,7 +65,7 @@ Children:
           value: '8'
     Properties:
       Default Command: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
-        name: Default Command, type: Command, validators: null, value: ShooterOff}
+        name: Default Command, type: Command, validators: null, value: ShooterOfff}
   Properties: {}
 - Name: Operator Interface
   Base: OI
@@ -197,7 +197,7 @@ Children:
         name: Requires, type: Subsystem, validators: null, value: Conveyor}
       Button on SmartDashboard: !!robotbuilder.data.properties.BooleanProperty {default: true,
         name: Button on SmartDashboard, validators: null, value: true}
-  - Name: ShooterOff
+  - Name: ShooterOfff
     Base: Command
     Children: []
     Properties:
