@@ -45,4 +45,3 @@ void Shift::End() {
 void Shift::Interrupted() {
 	
 }
-
