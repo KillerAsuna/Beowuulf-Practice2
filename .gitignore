@@ -1,2 +1,9 @@
 /ShooterOn.o
 /ShooterOn.h~
+/ShooterOn.d
+*.h~
+*.wrproject~
+*.wrmakefile~
+*.project~
+*.cpp~
+*.cproject~

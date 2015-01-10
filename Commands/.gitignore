@@ -1,2 +1,5 @@
 /ShooterOn.o
 /ShooterOn.h~
+/ShooterOn.d
+*.h~
+*.cpp~
