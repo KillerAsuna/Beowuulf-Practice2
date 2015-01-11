@@ -16,7 +16,8 @@
 #include "ShooterOn.h"
 #include "ShooterDelay.h"
 
-Auto::Auto() {
+Auto::Auto() 
+{
 	// Add Commands here:
 	// e.g. AddSequential(new Command1());
 	//      AddSequential(new Command2());
@@ -33,10 +34,10 @@ Auto::Auto() {
 	// e.g. if Command1 requires chassis, and Command2 requires arm,
 	// a CommandGroup containing them would require both the chassis and the
 	// arm.
-	
+
 	 AddParallel (new ShooterOn());
      AddSequential (new IntakeOn());
      AddSequential (new ConveyorOn());
      AddSequential (new ShooterDelay());
-    AddSequential (new ConveyorOn());
-     }
+     AddSequential (new ConveyorOn());
+ }
